@@ -1,0 +1,399 @@
+/* STYLE GENERAL */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.padding-right-left {
+  padding-right: 60px;
+  padding-left: 60px;
+
+}
+
+.padding-top-bottom {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* NAVBAR */
+
+header {
+  box-shadow: rgba(0, 0, 0, 0.16) 2px 4px 20px 0px;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+.item-navbar {
+  display: flex;
+  align-items: center;
+  color: #595354 ;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  transition: .5s;
+}
+
+.item-navbar:hover {
+  color: #ff6675;
+  transition: .5s;
+}
+
+/* FIRST SECTION  */
+
+.img-phone-1 {
+  background-image: url(../images/android-3.png);
+  width: 400px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50px);
+
+}
+
+.first-section {
+  background-image: url(../images/bg-first-section.png);
+  padding-top: 80px;
+  background-size: 1000px;
+  background-position: -213px;
+  background-repeat: no-repeat;
+}
+
+.line-first-section, .line-three-section {
+  height: 8px;
+  width: 90px;
+  /* background-color: #ff6675; */
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    right top,
+    color-stop(0, #FF665E),
+    color-stop(1, #FF6685),
+    color-stop(1, #FF6670)
+  );
+  border: none;
+  margin: 10px 0;
+}
+
+.title-first-section, .subtitle-first-section, .title-blog  {
+  color: #595354;
+  margin-bottom: 0px;
+}
+
+.title-first-section {
+  padding-right: 27px;
+}
+
+.title-first-section, .title-blog, .mask-section p {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.subtitle-first-section, .description-miit {
+  letter-spacing: .7px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.logo-googleplay {
+  height: 70px;
+  margin-left: -6px;
+}
+
+/* blog */
+
+.blog {
+  background-color: #f8f8f8;
+  padding-bottom: 0;
+}
+
+.title-blog {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-blog img {
+  margin-left: 5px;
+  margin-top: -7px;
+}
+.images-blog {
+  position: relative;
+  height:  346px;
+}
+
+.img-1, .img-2, .img-3 {
+  width: 260px;
+  height: 174px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.16) 3px 2px 15px 7px;
+  
+}
+
+.img-1 {
+  transform: rotate(13deg);
+  top: 30px;
+}
+
+.img-2 {
+  transform: rotate(-6deg);
+  right: 33px;
+}
+
+.img-3 {
+  bottom: 55px;
+  left: 151px;
+}  
+
+.link-blog {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -37px;
+  margin-bottom: 80px;
+}
+
+.link-blog a {
+  color: #ff6675;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.phones-blog {
+  position: relative;
+}
+
+.phone-front {
+  background-image: url(../images/android-4.png);
+  height: 516px;
+  width: 316px;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+.phone-rotate {
+  background-image: url(../images/android-2.png);
+  height: 475px;
+  width: 362px;
+  background-size: cover;
+  position: absolute;
+  right: -26px;
+  bottom: -63px;
+}
+
+/* THREE SECTION  */
+
+.three-section {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mask-section {
+  background-color: rgba(255, 102, 94, 0.78);
+
+}
+
+.mask-section p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.line-three-section {
+  background-image: none;
+  background-color: #fff;
+  width: 70px;
+}
+
+.logo-bottom {
+  position: relative;
+}
+
+.logo-bottom img {
+  position: absolute;
+  bottom: -201px;
+  right: 0;
+}
+
+.container-function {
+  margin: 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 3px 2px 15px 7px;
+}
+
+.function-flex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+      /* height: 40px; */
+  padding: 20px 0;
+}
+
+.function-flex p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #595354;
+}
+
+.function-flex img {
+  margin-top: 15px;
+}
+
+.img-function {
+  background-image: url(../images/half-android.png);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.function-left, .function-right {
+  margin-top: 40px;
+}
+
+.function-left {
+  text-align: end;
+  padding-left: 100px;
+}
+
+.function-right {
+  padding-right: 100px;  
+}
+
+.title-function {
+  font-size: 35px;
+  font-weight: 400;
+  color: #ff6675;
+}
+
+.description-function {
+  letter-spacing: .7px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #595354;
+}
+
+/* SECTION TEST-APLICATION  */
+
+.test-app {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:#f5f5f5;
+}
+
+.test-app img {
+  margin-bottom: 15px;
+}
+
+.title-test {
+  font-size: 33px;
+  font-weight: 400;
+  color: #595359;
+}
+
+.description-test {
+  font-size: 20px;
+  color: #595354;
+  padding: 0 380px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 30px 0;
+  background-color: #de5345;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-footer {
+  border: 0;
+  height: 2px;
+  border-top: none;
+  background-color: white;
+  width: 485px;
+  margin: 25px 0;
+}
+
+.items-footer a{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 35px;
+  font-size: 20px;
+}
+
+.message-fixed {
+  width: 193px;
+  float: right;
+  top: 204px;
+  position: fixed;
+  /* top: 0; */
+  right: -20px;
+  /* height: 73px; */
+  border-top: 3px solid #de5345;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 2px 4px 20px 0px;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -ms-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  transform: skew(35deg);
+  margin-right: -29px;
+  padding: 7px 25px;
+}
+
+.message-fixed p, .message-fixed a {
+  color: #ff6675;
+}
+.message-fixed p {
+  margin-bottom: 0;
+  transform: skew(-2deg);
+
+}
+.message-fixed a {
+  text-decoration: underline;
+}
+
+.content-message {
+  transform: skew(-35deg);
+  font-size: 12px;
+  position: relative;
+}
+
+.content-message img {
+  position: absolute;
+  top: -31px;
+  left: -52px;
+}
+
+/*SCROLLBAR*/
+::-webkit-scrollbar
+{
+  width: 6px;  /* for vertical scrollbars */
+  height: 6px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
